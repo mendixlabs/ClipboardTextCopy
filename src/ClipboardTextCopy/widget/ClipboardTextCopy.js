@@ -78,7 +78,7 @@ define([
             document.body.removeChild(dummy);
         },
 
-        uninitialize() {
+        uninitialize: function() {
            if (this.button) {
                this.button.uninitialize();
            }
