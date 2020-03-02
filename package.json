@@ -1,6 +1,6 @@
 {
   "name": "ClipboardTextCopy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Copy selected text from a text input element to the user's clipboard.",
   "license": "Apache 2",
   "author": "Roeland Salij",

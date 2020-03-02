@@ -61,7 +61,7 @@ define([
             var element = this.findElement();
 
             if (element) {
-                var value = element.value !== undefined 
+                var value = element.value !== undefined
                     ? element.value
                     : element.innerText;
                 this.copyToClipboard(value);
