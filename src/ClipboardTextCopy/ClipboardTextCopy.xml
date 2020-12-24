@@ -9,6 +9,12 @@
             <category>General</category>
             <description>Class name of the input or html element. Input element value will be copied, other elements the inner text is copied</description>
         </property>
+        <property key="onCopyNanoflow" type="nanoflow" required="false">
+            <caption>OnCopy Nanoflow</caption>
+            <category>Events</category>
+            <description>Nanoflow to execute after content is copied to clipboard</description>
+            <returnType type="Void" />
+        </property>
         <property key="labelCaption" type="translatableString" required="false">
             <caption>Caption</caption>
             <category>Appearance</category>

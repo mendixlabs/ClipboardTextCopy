@@ -65,6 +65,16 @@ define([
                     ? element.value
                     : element.innerText;
                 this.copyToClipboard(value);
+                if(this.onCopyNanoflow.nanoflow !== undefined){
+                    mx.data.callNanoflow({
+                        nanoflow: this.onCopyNanoflow,
+                        origin: this.mxform,
+                        context: this.mxcontext,
+                        error: function(error) {
+                            console.log(error.message);
+                        }
+                    });
+                }
             }
         },
 
